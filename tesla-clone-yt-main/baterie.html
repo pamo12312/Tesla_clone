@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baterie</title>
+    <link rel="stylesheet" href="css/baterie.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+<header>
+</header>
+<main>
+    <div class="blur__overlay"></div>
+    <header class="header">
+        <a class="header__left" href="index.html">
+            <img class="header__logo" src="media/logo.png" alt=""/>
+        </a>
+
+        <ul class="header__middle">
+            <li>
+            <li><a class="header__nav__btn" href="baterie.html">Baterie</a></li>
+            <li><a class="header__nav__btn" href="#">O Nás</a></li>
+            <li><a class="header__nav__btn" href="#">Ceník</a></li>
+            <li><a class="header__nav__btn" href="#">Solární energie</a></li>
+            <li><a class="header__nav__btn" href="#">Větrné energie</a></li>
+            <li><a class="header__nav__btn" href="#">Vodní energie</a></li>
+            <li>
+            <li class="header__nav__btn dropdown">
+                <a href="#">Technologie</a>
+                <div class="dropdown-content">
+                    <a href="#">Solární energie</a>
+                    <a href="#">Větrná energie</a>
+                    <a href="#">Vodní energie</a>
+                </div>
+            </li>
+            </li>
+            </li>
+        </ul>
+
+        <div class="header__right">
+            <a class="header__nav__btn" href="kontakt.html">Kontakty</a>
+            <a class="header__nav__btn menu__btn" href="#">menu</a>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="close__btn__container">
+            <img class="navigation__close__btn" src="media/close_icon.svg" alt=""/>
+        </div>
+        <ul>
+            <li class="link__in__middle"><a class="nav__link" href="#">Solární energie</a></li>
+            <li class="link__in__middle"><a class="nav__link" href="#">Větrná energie</a></li>
+            <li class="link__in__middle"><a class="nav__link" href="#">Vodní energie</a></li>
+            <li class="link__in__middle"><a class="nav__link" href="#">Technologie</a></li>
+            <li><a class="nav__link" href="#">Ukázky</a></li>
+            <li><a class="nav__link" href="#">Domácí baterie</a></li>
+            <li><a class="nav__link" href="#">Komerční baterie</a></li>
+            <li><a class="nav__link" href="#">Software</a></li>
+            <li><a class="nav__link" href="#">Nabíjení</a></li>
+            <li><a class="nav__link" href="kontakt.html">Kontakty</a></li>
+            <li><a class="nav__link" href="#">Podpora</a></li>
+        </ul>
+    </nav>
+    <style>
+    .container {
+    display: flex;
+    flex-direction: column;
+    }
+
+    @media (min-width: 700px) {
+    .container {
+    display: flex;
+    flex-direction: row;
+        height: 100vh;
+    }
+
+    .image {
+    padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text {
+    padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        color: white;
+    }
+    }
+    @media (max-width: 700px) {
+    .text {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: white;
+    }
+    }
+    .image img {
+    max-width: 100%;
+    height: auto;
+    }
+    </style>
+
+    <div class="container">
+        <div class="image">
+            <img src="media/baterie.png" alt="Fotografie">
+        </div>
+        <div class="text">
+            <p>Volta 1.</p>
+        </div>
+    </div>
+
+    <div class="popis">
+        <div class="baterie">
+            <div class="nadpisbaterie">Volta</div>
+            <img class="baterka" src="media/baterie.png" alt="baterie"></div>
+        <div class="popisb">
+            <div class="info">
+
+                <div class="nav-container">
+                    <h2 class="nav-linkl" onclick="changeColor(this, 'section1')">Volta 1</h2>
+                    <h2 class="nav-link" onclick="changeColor(this, 'section2')">Volta 2</h2>
+                    <h2 class="nav-linkp" onclick="changeColor(this, 'section3')">Volta 3</h2>
+                </div>
+
+                <div class="obsah">
+                    <hr>
+                    <div id="section1" class="content">
+
+                        <div class="infobater"><b>Primární výkon</b></div>
+
+                        <div class="infobater"> Tepelný výkon pro potřeby domu 10 kW</div>
+
+                        <div class="infobater"><b>Sekundární výkon</b></div>
+
+                        <div class="infobater"> Tepelný výkon pro potřeby ohřevu tepelných úložišť 6 kW</div>
+
+                        <div class="infobater"><b> Průměrný příkon</b></div>
+
+                        <div class="infobater"> TČ 900 W při tepleném výkonu 10 kW</div>
+
+                        <div class="infobater"><b>Topný faktor</b></div>
+
+                        <div class="infobater"> 11</div>
+
+                        <div class="infobater"><b>Rozměry</b></div>
+
+                        <div class="infobater"> (V x Š x H) 1250 x 600 x 600 mm</div>
+
+                        <div class="infobater"><b>Hmotnost</b></div>
+
+                        <div class="infobater">220 kg</div>
+                    </div>
+                    <div id="section2" class="content">
+                        <div class="infobater"><b>Primární výkon</b></div>
+
+                        <div class="infobater"> Tepelný výkon pro potřeby domu 10 kW</div>
+
+                        <div class="infobater"><b>Sekundární výkon</b></div>
+
+                        <div class="infobater"> Tepelný výkon pro potřeby ohřevu tepelných úložišť 6 kW</div>
+
+                        <div class="infobater"><b> Průměrný příkon</b></div>
+
+                        <div class="infobater"> TČ 900 W při tepleném výkonu 10 kW</div>
+
+                        <div class="infobater"><b>Topný faktor</b></div>
+
+                        <div class="infobater"> 11</div>
+
+                        <div class="infobater"><b>Rozměry</b></div>
+
+                        <div class="infobater"> (V x Š x H) 1250 x 600 x 600 mm</div>
+
+
+                    </div>
+                    <div id="section3" class="content">
+
+                        <div class="infobater"><b>Sekundární výkon</b></div>
+
+                        <div class="infobater"> Tepelný výkon pro potřeby ohřevu tepelných úložišť 6 kW</div>
+
+                        <div class="infobater"><b> Průměrný příkon</b></div>
+
+                        <div class="infobater"> TČ 900 W při tepleném výkonu 10 kW</div>
+
+                        <div class="infobater"><b>Topný faktor</b></div>
+
+                        <div class="infobater"> 11</div>
+
+                        <div class="infobater"><b>Rozměry</b></div>
+
+                        <div class="infobater"> (V x Š x H) 1250 x 600 x 600 mm</div>
+
+                        <div class="infobater"><b>Hmotnost</b></div>
+
+                        <div class="infobater">220 kg</div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+
+                showContent('section1');
+
+                function showContent(sectionId) {
+                    let contents = document.getElementsByClassName('content');
+                    for (let i = 0; i < contents.length; i++) {
+                        contents[i].style.display = 'none';
+                    }
+                    let section = document.getElementById(sectionId);
+                    section.style.display = 'block';
+                }
+
+                function changeColor(element, sectionId) {
+                    // Resetuje barvu všech nadpisů na bílou
+                    let headers = document.querySelectorAll('.nav-linkl, .nav-link, .nav-linkp');
+                    for (let i = 0; i < headers.length; i++) {
+                        headers[i].style.color = '#5c5d61';
+                    }
+
+                    // Nastaví novou barvu pro kliknutý nadpis
+                    element.style.color = 'black';
+
+                    // Zobrazí obsah příslušící k danému nadpisu
+                    showContent(sectionId);
+                }
+            </script>
+        </div>
+    </div>
+    </section>
+
+
+    <div class="entoor">entor</div>
+    <div class="popis">
+        <div class="entorro"><img class="entor" src="media/bateryfunction.png" alt="en3ktor">
+        <div class="popisbate">
+            <div class="textb">– Lze jej řadit do kaskád, například 7 x 140 kW, což je vhodné pro
+                fotovoltaické elektrárny s výkonem okolo 1 MWp.
+            </div>
+            <div class="textb">– Základní účinnost Wattoru přesahuje 50%.</div>
+            <div class="textb">– Náklady na konfiguraci Wattoru, např. 7 x 140 kW,
+                což představuje výkon 0,98 MW, pískového úložiště o
+                akumulační schopnosti 10MWh a parního vyvíječe
+                odpovídajícího výkonu činí v současné době 7,9 mil.Kč.
+            </div>
+            <div class="textb">– Pro srovnání, náklady na pořízení lithiového bateriového
+                úložiště s kapacitou 10 MWh jsou přibližně 100 milionů Kč, s
+                životností 5-8 let při častém vytěžování.
+            </div>
+            <div class="textb">– Pro porovnání, náklady na pořízení pískového oproti
+                lithiovému bateriovému úložišti s kapacitou 10 MWh
+                jsou přibližně 10 : 100 mil.Kč s životností 5 : 25
+                let, obojí ve prospěch pískového úložiště.
+            </div>
+
+
+        </div>
+    </div>    </div>
+
+
+    <footer class="footer">
+        <ul>
+            <li><a href="#">EN3K © 2023</a></li>
+            <li><a href="#"> Kontakty </a></li>
+            <li><a href="#">Zaměstnanci</a></li>
+            <li><a href="#">Novinky</a></li>
+            <li><a href="#">Sídlo</a></li>
+            <li><a href="#">Mapa</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</main>
+<footer class="copy">
+    <p>&copy 2023 EN3K </p>
+</footer>
+</body>
+</html>
